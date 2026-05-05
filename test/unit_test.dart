@@ -8,7 +8,7 @@ void main(){
       final usuario = User(nombre: "Julian",rol: "Admin");
     //operaciones abcd
       
-    //asserts abcd
+    //asserts abcd mmmmmmmmm
     expect(usuario.nombre, "Julian");
 
   });
