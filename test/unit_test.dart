@@ -6,7 +6,7 @@ void main(){
   test("test1", (){
     //cargardatos
       final usuario = User(nombre: "Julian",rol: "Admin");
-    //operaciones
+    //operaciones abcd
       
     //asserts
     expect(usuario.nombre, "Julian");
