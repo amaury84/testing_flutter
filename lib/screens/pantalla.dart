@@ -27,7 +27,7 @@ class _PantallaState extends State<Pantalla> {
           usuario.isEmpty
           ?Text("Sin datos")
           :Text(usuario.toString())
-        ],
+        ],//cambio en pantalla.dart
       ),
     );
   }
