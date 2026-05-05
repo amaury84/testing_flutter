@@ -3,7 +3,7 @@ import 'package:testing_flutter/screens/pantalla.dart';
 
 void main() {
   runApp(const MainApp());
-}
+}//comentario
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
