@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('clonando repositorio') {
+        stage('repositorio') {
             steps {
                 echo 'Iniciando'
             }
         }
-        stage('Verificando flutter') {
+        stage('flutter version') {
             steps {
                 bat "flutter --version"
             }
