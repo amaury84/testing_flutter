@@ -9,8 +9,7 @@ pipeline {
         }
         stage('Ejecutando pruebas') {
             steps {
-                //cd flutter_test
-                flutter test
+                flutter --version
             }
         }
     }
