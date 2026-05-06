@@ -7,9 +7,9 @@ pipeline {
                 echo 'Iniciando'
             }
         }
-        stage('Ejecutando pruebas') {
+        stage('Verificando flutter') {
             steps {
-                flutter --version
+                bat "flutter --version"
             }
         }
     }
