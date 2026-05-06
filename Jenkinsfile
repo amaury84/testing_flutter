@@ -12,6 +12,11 @@ pipeline {
                 bat "flutter --version"
             }
         }
+        stage('Dart version') {
+            steps {
+                bat "dart --version"
+            }
+        }
                 stage('tests unitario') {
             steps {
                 bat "flutter test test/unit_test.dart"
