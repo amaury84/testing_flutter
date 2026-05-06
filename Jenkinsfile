@@ -19,7 +19,7 @@ pipeline {
         }
         stage('tests widget') {
             steps {
-                bat "flutter test test/widget_test.dart"
+                sh "flutter test test/widget_test.dart"
             }
         }
     }
